@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sirimalla Naga Vamsi | Web Development & Design Portfolio</title>
+  
+  <!-- Font Awesome Pro Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Modern Google Fonts (Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Background Glows -->
+  <div class="glow-blob blob-1"></div>
+  <div class="glow-blob blob-2"></div>
+  <div class="glow-blob blob-3"></div>
+
+  <!-- 1. Sticky Glassmorphism Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo-wrapper">
+        <span class="logo">
+          <span class="gradient-cyan">Sirimalla Naga Vamsi</span>
+          <span class="dot">.</span>
+        </span>
+        <span class="logo-badge">Landing Page</span>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <div class="status-badge">
+            <span class="pulse-dot"></span> Open for Internships
+          </div>
+          <h1>
+            Web Development & <br>
+            <span class="gradient-text-magenta">Designing</span> 
+            <span class="gradient-text-cyan">Intern</span>
+          </h1>
+          <p>
+            Hi, I am <strong>Sirimalla Naga Vamsi</strong>. I build high-performance, visually stunning, and responsive digital experiences with clean modern layouts.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="cta-btn primary-btn">
+              View My Projects <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="cta-btn secondary-btn">
+              Get In Touch
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="profile-card-glass">
+            <div class="profile-pic-wrapper">
+              <img 
+                src="image_1.png" 
+                alt="Sirimalla Naga Vamsi" 
+                class="profile-pic"
+                width="250"
+                height="250"
+              />
+            </div>
+            <div class="floating-tag tag-1">
+              <i class="fa-solid fa-laptop-code"></i> Clean Code
+            </div>
+            <div class="floating-tag tag-2">
+              <i class="fa-brands fa-html5"></i> HTML5
+            </div>
+            <div class="floating-tag tag-3">
+              <i class="fa-brands fa-css3-alt"></i> CSS3
+            </div>
+            <div class="floating-tag tag-4">
+              <i class="fa-solid fa-wand-magic-sparkles"></i> UI/UX Design
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Section 1: About Me -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title text-emerald">About Me</h2>
+        <div class="glass-card about-card">
+          <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+          <p>
+            I am a passionate frontend development intern with a strong foundation in modern <strong>HTML5</strong> and <strong>CSS3</strong>. Dedicated to crafting accessible, performant, and responsive web interfaces. A quick learner and proactive team player, eager to contribute to impactful real-world projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Section 2: Core Skills -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2 class="section-title text-violet">Core Skills</h2>
+        <div class="skills-grid">
+          
+          <div class="glass-card skill-card orange-glow">
+            <div class="icon-box icon-orange">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic structuring, Web Accessibility (a11y), and clean DOM architecture.</p>
+          </div>
+
+          <div class="glass-card skill-card blue-glow">
+            <div class="icon-box icon-blue">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <h3>CSS3 & Modern UI</h3>
+            <p>Flexbox, CSS Grid, Custom Properties, Glassmorphism, and smooth animations.</p>
+          </div>
+
+          <div class="glass-card skill-card emerald-glow">
+            <div class="icon-box icon-emerald">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <h3>Responsive Design</h3>
+            <p>Fluid viewports, media queries, and seamless cross-device compatibility.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Section 3: Featured Projects -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title text-magenta">Featured Projects</h2>
+        <div class="projects-grid">
+          
+          <div class="glass-card project-card border-magenta">
+            <div class="project-header">
+              <i class="fa-regular fa-folder-open folder-icon icon-magenta"></i>
+              <a href="https://github.com/sirimallanagavamsi/OIBSIP" target="_blank" class="external-link" title="Source Code">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <h3>OIBSIP Tasks</h3>
+            <p>Comprehensive frontend tasks completed during the internship, highlighting core web competencies.</p>
+            <a href="https://github.com/sirimallanagavamsi/OIBSIP" target="_blank" class="project-btn btn-magenta">
+              View Repository <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+
+          <div class="glass-card project-card border-cyan">
+            <div class="project-header">
+              <i class="fa-regular fa-folder-open folder-icon icon-cyan"></i>
+              <a href="#" class="external-link" title="Live Preview">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <h3>Portfolio Web App</h3>
+            <p>Interactive glassmorphism portfolio site featuring custom CSS keyframe animations and themes.</p>
+            <a href="#" class="project-btn btn-cyan">
+              Learn More <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+
+          <div class="glass-card project-card border-violet">
+            <div class="project-header">
+              <i class="fa-regular fa-folder-open folder-icon icon-violet"></i>
+              <a href="#" class="external-link" title="Live Preview">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <h3>Landing Page Suite</h3>
+            <p>High-converting static landing page layout built adhering to industry CSS guidelines.</p>
+            <a href="#" class="project-btn btn-violet">
+              Learn More <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. Footer Section -->
+  <footer id="contact" class="footer section">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>Let's Connect</h3>
+        <p>Feel free to reach out for collaborations, internship opportunities, or inquiries.</p>
+        
+        <!-- Corrected Wrapper for Alignment -->
+        <div class="contact-badges">
+          <a href="mailto:sirimalla.nagavamsi4@gmail.com" class="email-badge">
+            <i class="fa-solid fa-envelope"></i> sirimalla.nagavamsi4@gmail.com
+          </a>
+          <a href="tel:+917569192190" class="phone-badge">
+            <i class="fa-solid fa-phone"></i> +91 7569192190
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-socials">
+        <h4>Social Connections</h4>
+        <div class="social-links">
+          <a href="https://github.com/sirimallanagavamsi/OIBSIP" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/vamsi-sirimalla" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" target="_blank" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sirimalla Naga Vamsi. Crafted with precision.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
