@@ -10,7 +10,7 @@ An interactive web tool designed to perform instant temperature conversions betw
 
 ## 🛠️ Tech Stack
 * **HTML5:** Input fields, dropdown options, and structural elements.
-* **CSS3:** Custom styling, UI centered card design, and responsive layout.
+* **CSS3:** Custom styling, UI centered card design, and responsive layout. 
 * **Vanilla JavaScript:** Core logic for temperature formulas and DOM updates.
 
 ## 🚀 How to Run
