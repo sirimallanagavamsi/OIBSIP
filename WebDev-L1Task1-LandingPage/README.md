@@ -1,3 +1,4 @@
+<img width="960" height="600" alt="Screenshot 2026-08-27 131043" src="https://github.com/user-attachments/assets/663f5a03-eae5-4217-b1b6-5abcde3f2360" />
 # Task 1: Landing Page
 
 A clean, modern, and responsive landing page built as part of the Oasis Infobyte Web Development & Designing Internship.
