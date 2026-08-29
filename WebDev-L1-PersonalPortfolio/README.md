@@ -2,17 +2,32 @@
 
 A personal portfolio website showcasing my skills, background, educational qualifications, and projects.
 
+---
+
+## 📌 Internship Details
+* **Intern Name:** Sirimalla Naga Vamsi
+* **Track:** Web Development & Designing
+* **Task:** Level 1 - Task 2 (Personal Portfolio Website)
+* **Organization:** Oasis Infobyte
+
+---
+
 ## 🌟 Features
 * **About Section:** Brief introduction and career goals.
+* **Education Section:** Educational qualifications and academic details.
 * **Skills Showcase:** Highlighted list of technical competencies.
 * **Projects Gallery:** Display of completed tasks and repository links.
 * **Contact Details:** Easy-to-find contact information.
 * **Responsive Navigation:** Smooth user experience across all devices.
 
+---
+
 ## 🛠️ Tech Stack
 * **HTML5:** Content structure.
 * **CSS3:** Styling, grid/flexbox layouts, and responsive adjustments.
 * **JavaScript:** Dynamic interactions and UI behaviors.
+
+---
 
 ## 📸 Preview
 
@@ -27,6 +42,13 @@ A personal portfolio website showcasing my skills, background, educational quali
 <img width="960" height="600" alt="Screenshot 2026-08-27 133548" src="https://github.com/user-attachments/assets/55d9cb39-d4b8-423f-b055-a7b3c3963aab" />
 <img width="960" height="600" alt="Screenshot 2026-08-27 133605" src="https://github.com/user-attachments/assets/790562a1-37a8-4f8c-aa6e-7257fd150756" />
 
+---
+
 ## 🚀 How to Run
-1. Download or clone this repository.
-2. Open `index.html` in any web browser.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/sirimallanagavamsi/OIBSIP.git](https://github.com/sirimallanagavamsi/OIBSIP.git)
+
+   Navigate to the project folder: WebDev-L1-PersonalPortfolio
+
+Open index.html in any modern web browser.
