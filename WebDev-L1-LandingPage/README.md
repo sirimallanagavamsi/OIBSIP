@@ -40,3 +40,8 @@ A clean, modern, and responsive landing page built as part of the Oasis Infobyte
 1. Clone the repository:
    ```bash
    git clone [https://github.com/sirimallanagavamsi/OIBSIP.git](https://github.com/sirimallanagavamsi/OIBSIP.git)
+
+
+   Navigate to the project folder: WebDev-L1-LandingPage
+
+Open index.html in any modern web browser.
